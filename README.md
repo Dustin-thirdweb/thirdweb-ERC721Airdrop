@@ -1,6 +1,6 @@
-## Getting Started
+# ERC721 Airdorp frontend
 
-ERC721 Airdorp frontend
+## Getting Started
 
 ```bash
 git clone https://github.com/dturska12/thirdweb-Airdrop.git
