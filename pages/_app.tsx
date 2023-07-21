@@ -7,7 +7,10 @@ import { Navbar } from "../components/Navbar/Navbar";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={Ethereum}>
+    <ThirdwebProvider 
+      activeChain={Ethereum}
+      clientId="6f987a42ce445cedc9cd917e21954cb6"
+    >
       <Navbar />
       <Component {...pageProps} />
     </ThirdwebProvider>
